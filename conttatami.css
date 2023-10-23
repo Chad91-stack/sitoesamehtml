@@ -1,0 +1,167 @@
+body{
+    font-family: monospace;
+    margin:0px;
+}
+
+nav{
+    background-color: rgba(0,0,0,0.919);
+    color:whitesmoke;
+    height: 60px;
+    display: flex;
+    border-bottom: 2px solid red;
+    background-attachment: fixed;
+    border-top: red;
+}
+.logoContenitore{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logo{
+    width: 40px;
+    box-shadow: 1px 2px whitesmoke;
+    border-radius: 50%;
+}
+
+.navLinks{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-around;
+ 
+}
+
+.navLinks a:hover {
+  text-decoration: underline; 
+  color: rgb(140, 255, 0); 
+}
+
+
+.name{
+    background-position: center;
+    color:whitesmoke;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around
+    
+}
+
+.titoloHeader{
+    font-size: 80px;
+    color: aquamarine;
+    text-shadow: 0cqh;
+}
+header{
+    background-image: url("./media/backgroundDefault.jpg");
+     height: 100vh; /*viewport height */
+    background-position: center;
+    background-size: cover;
+    color:whitesmoke;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 2px 2px black;
+    justify-content: space-around; 
+     background-attachment: fixed;
+}
+
+
+.immagine{
+background-image:url("./media/verde.jpg");
+justify-content: space-around;
+border-top: 2px solid red;
+font-size:larger;
+padding:10px;
+background-attachment: fixed;
+}
+
+
+.sezioneForm{
+    background-image: url("./media/sfondoesame.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-attachment: fixed;
+}
+
+.titoloForm{
+text-align: center;
+font-size: 40px;
+color:aquamarine;
+}
+
+form{
+    min-height: 300px;
+    width: 300px;
+    border:2px solid black;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.299);
+    margin-left: 150px;
+   box-shadow: 5px 5px rgba(255, 0, 0, 0.508);
+}
+
+label{
+    font-size: 20px;
+    font-weight: 600;
+    color:aquamarine;
+    margin-bottom: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
+}
+
+.contenitoreInput{
+    display:flex;
+    flex-direction: column;
+    margin:20px;
+
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    font-weight:bold ;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid whitesmoke;
+    background-color: rgba(144, 0, 255, 0.671);
+    border-radius: 20px;
+    box-shadow: 2px 2px  rgba(11, 206, 11, 0.912);
+}
+.contenitoreBottoneform{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* footer */
+footer{
+background-color:rgba(0,0,0,0.919);
+min-height: 20px;
+color:red;
+font-size: 15px;
+padding: 10px;
+border-top: 2px solid red;
+}
+
+.footerLinks{
+display: flex;
+justify-content: space-around;
+margin:50px;
+}
+ 
+ .footerLinks a:hover {
+  text-decoration: underline; 
+  color: rgb(140, 255, 0); 
+}
+
+.contenitoreCopyright{
+display: flex;
+justify-content: end;
+align-items: center;
+}
